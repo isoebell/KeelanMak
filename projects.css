@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    overflow-x: hidden;
+    }
+    @font-face { 
+font-family: 'ChivoMono'; 
+src: url('fonts/ChivoMono-VariableFont_wght.ttf');
+} 
+
+
+.background-container {
+    position: relative; /* Set relative positioning */
+    height: 100vh; /* Adjust height as needed */
+    background-image: url(img/24.png);
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    justify-content: center;
+}
+
+.navigation{
+    font-family: ChivoMono;
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    justify-content: center;
+    width: 100vw;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 15vw 15vw 15vw;
+    gap: 1%;
+    box-sizing: border-box;
+    position:absolute; /* Position the hyperlinks absolutely */
+    top: 3%; /* Adjust top position as needed */
+    z-index: 1; /* Ensure hyperlinks are above the background image */
+    /* Add styling for your header links here */
+}
+
+.navigation a{
+    text-decoration: none;
+    color: white;
+}
+
+.navigation a:hover{
+    color: #c42427;
+}
+
+.vertical-text {
+    color: white;
+    font-family: ChivoMono;
+    padding: 1%;
+    writing-mode: vertical-lr; /* Set text direction to vertical, from left to right */
+    transform: rotate(180deg); /* Rotate text to display vertically */
+    text-align: right; /* Align text in the center horizontally */
+    white-space: nowrap; /* Prevent text from wrapping */
+    position: fixed; /* Fixed position so it stays in place */
+    top: 5%; /* Position from the top of the viewport */
+    left: 1%; /* Position from the left of the viewport */
+    height: 100%; /* Set the height to fill the viewport */
+    line-height: 1.5; /* Set line height for better spacing */
+    z-index: 1; /* Ensure text is above the background image */
+  }
+
+  .vertical-text a{
+    color: white;
+    text-decoration: none;
+  }
+
+  .vertical-text a:hover{
+    color: red;
+  }
+
+  .logo{
+    position: fixed;
+    bottom: 5%;
+    right: 2%;
+  }
+
+  .logo img{
+    width: 100%;
+    max-width: 5vw;
+    transition: transform 0.3s ease; /* Add transition for smooth effect */
+  }
+
+  .logo img:hover {
+    /* Change the background image URL to the new image path */
+    content: url(img/redlogo.png);
+}
+  
+.songs{
+  position: relative;
+  top: 10vh;
+  left: 10vw;
+}
+
+.playsongs{
+  display: block;
+  margin-bottom: 2%; /* Set the vertical margin between iframes */
+}
+
