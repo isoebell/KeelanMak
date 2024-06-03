@@ -51,6 +51,11 @@ canvas {
     color: #86a3e6;
 }
 
+.navigation #about-link:hover,
+.navigation #shop-link:hover {
+    color: white;
+}
+
 .navigation a:hover{
     color: #c42427;
 }
