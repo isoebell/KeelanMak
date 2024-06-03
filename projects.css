@@ -13,7 +13,7 @@ src: url('fonts/ChivoMono-VariableFont_wght.ttf');
 .background-container {
     position: relative; /* Set relative positioning */
     height: 100vh; /* Adjust height as needed */
-    background-image: url(img/24.png);
+    background-image: url(img/dragged.jpg);
     background-size: cover; /* Cover the entire viewport */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Prevent background image from repeating */
@@ -22,7 +22,7 @@ src: url('fonts/ChivoMono-VariableFont_wght.ttf');
 
 .navigation{
     font-family: ChivoMono;
-    color: white;
+    color: #c42427;
     font-size: 1em;
     text-align: center;
     justify-content: center;
@@ -40,15 +40,15 @@ src: url('fonts/ChivoMono-VariableFont_wght.ttf');
 
 .navigation a{
     text-decoration: none;
-    color: white;
-}
-
-.navigation a:hover{
     color: #c42427;
 }
 
+.navigation a:hover{
+    color: #86a3e6;
+}
+
 .vertical-text {
-    color: white;
+    color: #c42427;
     font-family: ChivoMono;
     padding: 1%;
     writing-mode: vertical-lr; /* Set text direction to vertical, from left to right */
@@ -64,12 +64,12 @@ src: url('fonts/ChivoMono-VariableFont_wght.ttf');
   }
 
   .vertical-text a{
-    color: white;
+    color: #c42427;
     text-decoration: none;
   }
 
   .vertical-text a:hover{
-    color: red;
+    color: #86a3e6;
   }
 
   .logo{
@@ -86,7 +86,7 @@ src: url('fonts/ChivoMono-VariableFont_wght.ttf');
 
   .logo img:hover {
     /* Change the background image URL to the new image path */
-    content: url(img/redlogo.png);
+    content: url(img/darkerbluelogo.png);
 }
   
 .songs{
